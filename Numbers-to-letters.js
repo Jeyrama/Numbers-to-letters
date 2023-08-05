@@ -11,3 +11,7 @@ All inputs will be valid.
 
 
 // Solution
+
+const alpha = ' zyxwvutsrqponmlkjihgfedcba!? '
+const switcher = x => x.map(item => alpha[item]).join('')
+
