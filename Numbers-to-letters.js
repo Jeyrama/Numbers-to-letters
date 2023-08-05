@@ -15,3 +15,4 @@ All inputs will be valid.
 const alpha = ' zyxwvutsrqponmlkjihgfedcba!? '
 const switcher = x => x.map(item => alpha[item]).join('')
 
+// or
